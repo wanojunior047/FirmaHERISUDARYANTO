@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Shield, ArrowLeft, Eye, Lock, Database, UserRights } from 'lucide-react';
+import { Shield, ArrowLeft, Eye, Lock, Database, Users } from 'lucide-react';
 import Link from 'next/link';
 
 export default function PrivacyPolicy() {
@@ -157,7 +157,7 @@ export default function PrivacyPolicy() {
           <Card className="mb-8 shadow-lg border-blue-200">
             <CardHeader>
               <CardTitle className="flex items-center space-x-3 text-blue-900">
-                <UserRights className="w-6 h-6" />
+                <Users className="w-6 h-6" />
                 <span>4. Hak Anda sebagai Klien</span>
               </CardTitle>
             </CardHeader>
